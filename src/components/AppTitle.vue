@@ -12,8 +12,8 @@
 <style scoped>
 h1{
     text-align: center;
-    line-height: 400px;
-    color: white;
+    /* line-height: 400px; */
+    color: black;
 }
 
 

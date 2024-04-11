@@ -10,22 +10,25 @@ import AppTitle from './AppTitle.vue';
 </script>
 
 <template>
-  <div class="container">
+  <!-- <div class="container">
     <AppTitle></AppTitle>
-  </div>
+  </div> -->
+  <AppTitle></AppTitle>
+  <img src="../assets/img/pngtree-abstract-modern-neon-frame-background-image_339537.jpeg" alt="">
 </template>
 
 <style scoped>
-.container{
+/* .container{
     width: 100%;
     height: 400px;
     background-image: url(https://www.serverplan.com/blog/wp-content/uploads/2022/07/colore-google.jpg);
     background-size: cover;
     background-position: center;
+} */
+img{
+  width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
 </style>
